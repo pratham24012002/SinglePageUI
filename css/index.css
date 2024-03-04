@@ -1,0 +1,441 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.clearfix::after{
+    clear: both;
+    display: table;
+    content: "";
+}
+
+a:hover{
+    background-color:#646869 ;
+}
+
+.cursor-pointer{
+    cursor:pointer;
+}
+
+/*     Embeded fonts                                 */
+
+@font-face {
+    font-family: 'monstrate';
+    src: url('../fonts/mons.ttf');
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/robo.ttf');
+}
+
+
+@font-face {
+    font-family: 'monstrate-bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+
+/*      Css OF Header Section               */
+
+header{
+    background-color: #1e8ae5;
+}
+
+
+.header-container{
+    background-color: #1e8ae5;
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 13px 0px;
+    
+}
+
+.float-left{
+    float: left;
+}
+
+.left-part .searchbar{
+    padding: 5px 0px;
+}
+
+.left-part input{
+    width: 467px;
+    height: 40px;
+    margin-left: 25px;
+    font-size: 1rem;
+    padding-left: 13px;
+}
+
+.left-part .searchicon{
+    height: 38px;
+    width: 45px;
+    color: #499ce8;;
+    margin-left: -3.2px;
+    background-color: #f8ffff;
+    border: 0px solid white;
+    font-size: 1rem;
+    
+}
+
+.float-right{
+    float: right;
+}
+
+.right-part .user-menu{
+    padding: 15px 0px;
+}
+
+.right-part .user-menu span{
+    color: #fffffa;
+
+}
+
+/*   *******************  Css of Navigation **********************                        */
+
+
+nav{
+    background-color: #d7dce2;
+}
+
+.navbar-container{
+    background-color: #d7dce2;
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 13.5px;
+    
+}
+
+.navbar-container .menubar{
+    display: inline-block;
+   
+}
+
+.navbar-container .link{
+    display: inline-block;
+    margin-left: 33px;
+}
+
+.navbar-container a{
+    color: #30353b;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.navbar-container.tab{
+    font-family: 'roboto';
+}
+
+
+/*        ******************Css Of Main Content*********************          */
+
+main{
+    background-color:#edeef2;
+}
+
+/*  Kids Section  */
+
+
+.kidsection{
+    background-color: #edeef2;
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+main .left-showcase{
+    position: relative;
+}
+
+main .left-showcase .kid-room{
+    width: 833px;
+    height: 441px;
+}
+
+.showcase-img1{
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    border: 0px solid black;
+    background-color: #e6235b;
+    color: white;
+    padding: 7px 17px;
+    font-size: 23px;
+   font-family: 'monstrate';
+}
+
+
+.right-showcase .top{
+    position: relative;
+}
+
+main .right-showcase .wood-toy{
+    width: 480px;
+    height: 213px;
+    margin-bottom: 18px;
+}
+
+.showcase-img2{
+    position: absolute;
+    bottom: 22px;
+    left: 0px;
+    border: 0px solid black ;
+    background-color: #314150;
+    color: white;
+    padding: 5px 18px;
+    font-size: 1.1rem;
+    font-family: 'monstrate';
+}
+
+.right-showcase .bottom{
+    position: relative;
+}
+
+.showcase-img3{
+    position: absolute;
+    bottom: 4px;
+    left: 0px;
+    border: 0px solid black;
+    background-color: #314150;
+    color: white;
+    padding: 7px 19px;
+    font-size: 1.1rem;
+    font-family: 'monstrate';
+}
+
+main .right-showcase .rubber-toy{
+    width: 480px;
+    height: 208px;
+}
+
+
+/*      offer heading             */
+
+
+.offer{
+    background-color: #edeef2;
+    max-width: 1340px;
+    margin: 0 auto;
+    font-family: 'monstrate-bold';
+    font-size: 20.8px;
+}
+
+/* Product card */
+
+.products{
+    background-color: #edeef2;
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 20px 0px 0px 0px;
+}
+
+.column{
+    width: 312px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+
+.product-image{
+    width: 122px;
+    height: 172px;
+    padding: 10px 90px 30px 90px;
+}
+
+.column-margin{
+    margin-right: 30px;
+}
+
+
+/*     description of a products                    */
+
+.description{
+
+    font-family: 'roboto';
+    white-space: nowrap; 
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: ellipsis;  
+    font-weight: bolder;
+}
+
+
+.bid{
+    color: #1e9d5e;
+}
+
+
+.product2 img{
+    width: 227px;
+    height: 162px;
+    padding: 24px 43px;
+}
+
+.product4{
+    position: relative;
+}
+
+.product4 button{
+    position: absolute;
+    right: 0px;
+    top: -36px;
+    border: 0px;
+    background-color: #1e8ae5;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'monstrate';
+
+}
+
+/* Star colouring class*/
+
+.checked{
+    color:#d6c752;
+}
+
+.unchecked{
+    color:#d0d0d8;
+}
+
+
+.rating{
+    display: inline-block;
+    margin:9px 0px 10px 0px;
+    color: #85bbec;
+    font-size: 12px;
+}
+
+/* padding between  detail and  price*/
+
+.product-detail{
+    padding: 10px 0px 4px;
+}
+
+/*         Css  Of Footer                                   */
+
+
+footer{
+    background-color: #4f5861;
+}
+
+
+.footer-container{
+    background-color: #4f5861;
+    max-width: 1340px;
+    margin: 0 auto;
+    font-family: 'monstrate-bold';
+   
+}
+
+.top-ft{
+    background-color: #2f3841;
+    padding: 8px 13px 2px;
+}
+
+.top-ft select{
+    background-color: #323b44;
+    color: white;
+    padding: 7px 10px;
+    position: relative;
+    width:160px;
+    bottom: 8px;
+}
+
+
+/*      Sprites section              */
+
+
+
+.horizontal {
+    list-style: none;
+    background-color: black;
+    float: right;
+    padding: 0;
+    margin-top: 5px;
+}
+.horizontal li {
+    height: 27px;
+    display: inline-block;
+    background-image: url('../images/sprite-social-media.png');
+    background-repeat: no-repeat;
+}
+.horizontal a{
+    display: inline-block;
+    width: 42px;
+    cursor: pointer;
+}
+.horizontal .visa {
+    background-position: 0 0;
+}
+
+.horizontal .mastercard{
+    background-position: -45px 0;
+}
+
+.horizontal .paypal {
+    background-position: -89px 0;
+}
+
+.horizontal .aramco {
+    background-position: -134px 0;
+}
+
+
+/* Middle section of footer*/
+
+
+.middle-ft{
+    background-color: #4f5861;
+    padding: 24px 0px 0px;
+}
+.middle-ft a{
+    margin-right: 17px;
+    color: white;
+    text-decoration: none;
+}
+.social-media .fa-brands{
+    padding-left: 9px;
+}
+
+.social-media p{
+    color: white;
+    display: inline-block;
+    margin: 0px;
+}
+
+
+.social-media a{
+    margin-right: 5px;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*   Botttom Section of header   */
+
+
+
+.bottom-ft{
+    background-color: #4f5861;
+    padding: 24px 0px;
+    margin-top: -10px;
+    font-family: 'roboto';
+}
+
+.bottom-ft p{
+    font-size:10px;
+    color: #d7e0e7;
+}
+
+p>span{
+    color:#2086da;
+}
